@@ -9,10 +9,9 @@ Class {
 BaselineOfSymspellPharo >> baselineOf: spec [
 
 	spec for: #pharo do: [
-		spec
-			baseline: 'Hashtable'
-			with: [
-			spec repository: 'github://pharo-containers/Hashtable:v1.x.x/src' ].
+  spec 
+    baseline: 'ContainersHashTable' 
+    with: [ spec repository: 'github://pharo-containers/Containers-HashTable/src' ].
 		spec package: 'Symspell' with: [ spec requires: #( 'Hashtable' ) ].
 		spec
 			package: 'Symspell-Tests'
