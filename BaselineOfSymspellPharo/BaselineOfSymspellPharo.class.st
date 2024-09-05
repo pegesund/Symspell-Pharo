@@ -17,5 +17,5 @@ BaselineOfSymspellPharo >> baselineOf: spec [
 		spec
 			package: 'Symspell-Tests'
 			with: [ spec requires: #(  'Symspell' 'Hashtable' ) ].
-		spec group: 'default' with: #( 'Symspell-Pharo' 'Hashtable' ) ]
+		spec group: 'default' with: #( 'Symspell' 'Hashtable' ) ]
 ]
