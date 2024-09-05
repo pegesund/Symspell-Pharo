@@ -1,8 +1,8 @@
 Class {
 	#name : 'BaselineOfSymspellPharo',
 	#superclass : 'BaselineOf',
-	#category : 'BaselineOfSymspell-Pharo',
-	#package : 'BaselineOfSymspell-Pharo'
+	#category : 'BaselineOfSymspellPharo',
+	#package : 'BaselineOfSymspellPharo'
 }
 
 { #category : 'baselines' }
