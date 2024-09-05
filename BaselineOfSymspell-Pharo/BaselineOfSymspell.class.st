@@ -6,7 +6,8 @@ Class {
 }
 
 { #category : 'baselines' }
-BaselineOfSymspell >> baselineOf: spec [	
+BaselineOfSymspell >> baselineOf: spec [
+
 	spec for: #common do: [
 		spec
 			baseline: 'Hashtable'
@@ -15,9 +16,9 @@ BaselineOfSymspell >> baselineOf: spec [
 		spec package: 'Symspell' with: [ spec requires: #( 'Hashtable' ) ].
 		spec
 			package: 'Symspell-Tests'
-			with: [ spec requires: #( 'Symspell' 'P3' ) ].
+			with: [ spec requires: #( 'Symspell' 'Symspell' ) ].
 		spec
 			group: 'default'
 			with: #( 'Symspell' 'Symspell-test' 'Hashtable' ).
-		spec group: 'core' with: #( 'Symspell' 'Hashtable' ) ] 
+		spec group: 'core' with: #( 'Symspell' 'Hashtable' ) ]
 ]
